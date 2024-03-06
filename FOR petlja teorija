@@ -62,7 +62,23 @@ c) Pronalaženje suma ili prosjeka elemenata niza: FOR petlja se često koristi 
 d) Manipulacija pokazivačima: FOR petlja se često koristi za iteriranje kroz nizove pomoću pokazivača.
 
 6.Primjeri
+Primjer 1- Ispisivanje tablice množenja za broj 5
 
+#include <stdio.h>
+
+int main() {
+    // Broj za koji želimo ispisati tablicu množenja
+    int broj = 5;
+
+    // Petlja for koja ide od 1 do 10
+    for (int i = 1; i <= 10; i++) {
+        // Ispisuje rezultat množenja
+        printf("%d x %d = %d\n", broj, i, broj * i);
+    }
+
+    return 0;  // Vraća 0 kako bi signalizirao uspješan završetak programa
+}
+(U ovom primjeru korišteni su komentari sa (//) dok možemo i pisati komentare kao ovaj: /* ovo je komentar */)
 ----------------------------------------------------------------------------------
 Primjer 2 - Provjera parnih i neparnih brojeva u unešenom polju.                  
 ----------------------------------------------------------------------------------
