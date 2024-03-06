@@ -1,6 +1,7 @@
 1.Što je to petlja?
 
-
+Programska petlja je struktura u računalnom programu koja omogućuje da se dijelovi programa izvrše vise puta.
+Njom se dijelovi programa mogu ponavljati unaprijed određeni broj puta ili dok zadani uvjet ne bude ispunjen
 2.Petlje u programskom jeziku C
 
 Petlje u programskom jeziku C postoje kako bi omogućile efikasno ponavljanje određenih blokova koda bez potrebe za ručnim kopiranjem istog koda.
