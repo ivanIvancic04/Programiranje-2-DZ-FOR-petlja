@@ -40,3 +40,33 @@ U tom slučaju je potrebno unutar tijela petlje odrediti način prekidanja petlj
 
 
 6.Primjeri
+
+----------------------------------------------------------------------------------|
+Primjer 2 - Provjera parnih i neparnih brojeva u unešenom polju.                  |
+----------------------------------------------------------------------------------|
+#include <stdio.h>                                                                |
+                                                                                  |
+int main(){                                                                       |
+  int polje_brojeva[10];                                                          |
+  int i;                                                                          |
+  int parni=0,neparni=0;                                                          |
+  printf("Unesite 10 cijelih brojeva: ");                                         |
+                                                                                  |
+  for (i=0;i<10;i++){                                                             |
+      scanf("%d", &polje_brojeva[i]);    //Ovo smo vidjeli u 1. primjeru          |
+  }                                                                               |
+                                                                                  |
+  for(i=0;i<10;i++){                                                              |
+      int broj=polje_brojeva[i];                                                  |
+      if ((broj%2)==1){                                                           |
+        neparni++;                                                                |
+      }                                                                           |
+      else{                                                                       |
+        parni++;                                                                  |
+      }                                                                           |
+  }                                                                               |
+                                                                                  |
+  printf("\nVase polje sadrzi %d neparnih i %d parnih brojeva.",parni,neparni);   |
+  return 1;                                                                       |
+}                                                                                 |
+----------------------------------------------------------------------------------|
