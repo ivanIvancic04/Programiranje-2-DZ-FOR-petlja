@@ -91,7 +91,7 @@ int main(){
   int parni=0,neparni=0;                                                          
   printf("Unesite 10 cijelih brojeva: ");                                         
                                                                                 
-  for (i=0;i<10;i++){                    //Ovo smo vidjeli u 1. primjeru                                           
+  for (i=0;i<10;i++){                    //Unos brojeva u polje                                           
       scanf("%d", &polje_brojeva[i]);              
   }                                                                               
                                                                                   
