@@ -38,6 +38,13 @@ U tom slučaju je potrebno unutar tijela petlje odrediti način prekidanja petlj
 
 5.Primjene FOR petlje
 
+FOR petlja se često koristi u programskom jeziku C za iteriranje kroz nizove ili za izvršavanje određenog bloka koda određeni broj puta.
+Evo nekoliko primjera primjene FOR petlje u programskom jeziku C:
+
+a) Iteriranje kroz nizove: FOR petlja se često koristi za iteriranje kroz nizove kako bi se izvršile određene operacije nad svakim elementom niza
+b) Ispis brojeva u određenom rasponu: FOR petlja se koristi za ispisivanje brojeva u određenom rasponu
+c) Pronalaženje suma ili prosjeka elemenata niza: FOR petlja se često koristi za iteriranje kroz niz kako bi se izračunale sume ili prosjeci elemenata
+d) Manipulacija pokazivačima: FOR petlja se često koristi za iteriranje kroz nizove pomoću pokazivača.
 
 6.Primjeri
 
