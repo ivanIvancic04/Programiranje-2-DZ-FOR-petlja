@@ -9,6 +9,32 @@
 
 4.Sintaksa FOR petlje
 
+Sintaksa for petlje u programskom jeziku C je sljedeća:
+
+
+for (inicijalizacija; uvjet; ažuriranje){
+
+	// tijelo
+
+}
+
+
+Ključni dijelovi petlje su:
+
+1. Inicijalizacija - To je izraz koji se izvršava samo jednom i to na početku petlje. Taj izraz se uvijek vrednuje prvi i
+najčešće predstavlja dodjelu ili pridruživanje nekoj varijabli.
+
+2. Uvjet - To je logički izraz koji se provjerava prije svakog izvršavanja petlje. Ako uvijet istinit, kod koji se nalazi
+u tijelu petlje će se izvršiti, ako nije, petlja se prekida.
+
+3. Ažuriranje - Izrazi koji se vrednuju nakon izvršavanja petlje. Najčešće je to promjena vrijednosti varijable koja se
+nalazi u izrazu inicijalizacija i uvjet.
+
+Izrazi inicijalizacija, uvjet i ažuriranje se obavezno odvajaju točkom zarezom ";".
+
+Također, moguće je izostaviti neke od izraza, primjerice, ako je izostavljen izraz za uvjet smatra se da je on istinit.
+U tom slučaju je potrebno unutar tijela petlje odrediti način prekidanja petlje.
+
 
 5.Primjene FOR petlje
 
