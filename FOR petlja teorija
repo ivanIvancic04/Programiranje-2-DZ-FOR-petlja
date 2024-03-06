@@ -48,32 +48,32 @@ d) Manipulacija pokazivačima: FOR petlja se često koristi za iteriranje kroz n
 
 6.Primjeri
 
-----------------------------------------------------------------------------------|
-Primjer 2 - Provjera parnih i neparnih brojeva u unešenom polju.                  |
-----------------------------------------------------------------------------------|
-#include <stdio.h>                                                                |
-                                                                                  |
-int main(){                                                                       |
-  int polje_brojeva[10];                                                          |
-  int i;                                                                          |
-  int parni=0,neparni=0;                                                          |
-  printf("Unesite 10 cijelih brojeva: ");                                         |
-                                                                                  |
-  for (i=0;i<10;i++){                                                             |
-      scanf("%d", &polje_brojeva[i]);    //Ovo smo vidjeli u 1. primjeru          |
-  }                                                                               |
-                                                                                  |
-  for(i=0;i<10;i++){                                                              |
-      int broj=polje_brojeva[i];                                                  |
-      if ((broj%2)==1){                                                           |
-        neparni++;                                                                |
-      }                                                                           |
-      else{                                                                       |
-        parni++;                                                                  |
-      }                                                                           |
-  }                                                                               |
-                                                                                  |
-  printf("\nVase polje sadrzi %d neparnih i %d parnih brojeva.",parni,neparni);   |
-  return 1;                                                                       |
-}                                                                                 |
-----------------------------------------------------------------------------------|
+----------------------------------------------------------------------------------
+Primjer 2 - Provjera parnih i neparnih brojeva u unešenom polju.                  
+----------------------------------------------------------------------------------
+#include <stdio.h>                                                                
+                                                                                  
+int main(){                                                                       
+  int polje_brojeva[10];                                                          
+  int i;                                                                          
+  int parni=0,neparni=0;                                                          
+  printf("Unesite 10 cijelih brojeva: ");                                         
+                                                                                
+  for (i=0;i<10;i++){                    //Ovo smo vidjeli u 1. primjeru                                           
+      scanf("%d", &polje_brojeva[i]);              
+  }                                                                               
+                                                                                  
+  for(i=0;i<10;i++){                     //Tokom izvođelja petlje deklarirana varijabla "broj" će dobiti vrijednost polja u poziciji "i"                                         
+      int broj=polje_brojeva[i];         //for petlja će se izvršavati sve dok uvijet "i<10" vrijedi te će mijenjat vrijedost "i" za +1 (i++) nakon svakog odrađenog "kruga"                                        
+      if ((broj%2)==1){                  //if funkcija provjerava ostatak tokom dijeljenja sa dva (modul broja)                                        
+        neparni++;                       //Ako je ostatak 1 broj je neparan u suprotnom je paran                                        
+      }                                                                             
+      else{                                                                        
+        parni++;                                                                  
+      }                                                                           
+  }                                                                               
+                                                                                  
+  printf("\nVase polje sadrzi %d neparnih i %d parnih brojeva.",parni,neparni);   
+  return 1;                                                                       
+}                                                                                 
+----------------------------------------------------------------------------------
