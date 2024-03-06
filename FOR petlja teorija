@@ -3,6 +3,21 @@
 
 2.Petlje u programskom jeziku C
 
+Petlje u programskom jeziku C postoje kako bi omogućile efikasno ponavljanje određenih blokova koda bez potrebe za ručnim kopiranjem istog koda.
+Razlikujemo 4 osnovne vrste petlji: 
+
+FOR petlja:
+Služi za ponavljanje određenog bloka koda unaprijed definirani broj puta. Sintaksa je for (izraz_inicijalizacije; uvjet_petlje; izraz_azuriranja) { /* blok koda */ }.
+
+WHILE petlja:
+Koristi se za ponavljanje bloka koda dok je zadovoljen određeni uvjet. Sintaksa je while (uvjet) { /* blok koda */ }.
+
+DO-WHILE petlja:
+Slična while petlji, ali uvjet se provjerava nakon izvršavanja bloka koda, osiguravajući da se blok koda izvrši barem jednom. Sintaksa je do { /* blok koda */ } while (uvjet);.
+
+FOREACH petlja:
+Omogućuje iteriranje kroz elemente niza ili kolekcije. Sintaksa ovisi o konkretnoj implementaciji i može se razlikovati.
+
 
 3.O FOR petlji
 
