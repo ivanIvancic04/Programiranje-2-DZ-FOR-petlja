@@ -22,6 +22,21 @@ Omogućuje iteriranje kroz elemente niza ili kolekcije. Sintaksa ovisi o konkret
 
 3.O FOR petlji
 
+FOR petlja ima dugu povijest i koristi se u raznim programskim jezicima. Jedan od ranih jezika koji je uključivao FOR petlju bio je jezik Fortran, koji datira iz 1950-ih godina.
+
+Tijekom vremena, mnogi drugi jezici su usvojili slične konstrukcije za ponavljanje koda.
+Obično se koristi kada unaprijed znamo koliko puta želimo ponoviti određeni blok koda.
+
+Primjerice, u programiranju bismo koristili FOR petlju kada želimo proći kroz sve elemente niza, obraditi ih ili izvršiti određenu operaciju nad svakim od njih.
+Također, može se koristiti za ponavljanje određenog bloka koda unaprijed poznat broj puta.
+
+Ova konstrukcija omogućava strukturiranje programa na način koji olakšava obradu podataka, održavanje čitljivosti koda te smanjenje potrebe za ponavljanjem istih ili sličnih dijelova koda.
+
+Različiti programski jezici imaju svoje specifičnosti u sintaksi FOR petlje, ali osnovna svrha ostaje ista.
+Npr., u Pythonu možete koristiti for element in niz za iteraciju kroz elemente niza, dok u C++ možete koristiti for (int i = 0; i < n; i++) za ponavljanje određenog broja puta.
+
+S obzirom na svoju svestranost i jednostavnost upotrebe, FOR petlja i dalje ostaje ključni dio programiranja, olakšavajući razvoj mnogih vrsta programa, od jednostavnih skripti do složenih sustava
+
 
 4.Sintaksa FOR petlje
 
